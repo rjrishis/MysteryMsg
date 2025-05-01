@@ -68,14 +68,14 @@ To run **LinkLeap** locally, follow these steps:
 
 3.  **Set up environment variables:**
     Create a `.env.local` file in the root directory and configure the necessary environment variables. This will likely include:
-        AUTH_SECRET=your_auth_secret_here
-        AUTH_GITHUB_ID=your_github_client_id
-AUTH_GITHUB_SECRET=your_github_client_secret
-MONGODB_URI=your_mongodb_connection_string
-RESEND_API_KEY=your_resend_api_key
-OPENAI_API_KEY=your_openai_api_key
-GEMINI_API_KEY=your_google_gemini_api_key
-NEXTAUTH_URL=http://localhost:3000
+   * AUTH_SECRET=your_auth_secret_here
+   * AUTH_GITHUB_ID=your_github_client_id
+   * AUTH_GITHUB_SECRET=your_github_client_secret
+   * MONGODB_URI=your_mongodb_connection_string
+   * RESEND_API_KEY=your_resend_api_key
+   * OPENAI_API_KEY=your_openai_api_key
+   * GEMINI_API_KEY=your_google_gemini_api_key
+   * NEXTAUTH_URL=http://localhost:3000
 
 
    
