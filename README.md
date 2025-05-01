@@ -1,51 +1,31 @@
-# 🕵️‍♂️ Mystery - Send & Receive Anonymous Messages with AI Suggestions
+# MysteryMsg
 
-Welcome to **Mystery**, a full-stack Next.js 15 application that allows users to receive anonymous messages through a unique dashboard link. With built-in AI suggestions, users can also get cheeky, friendly, or thoughtful prompt ideas when sending anonymous messages to others.
+MysteryMsg is a web application that allows users to send anonymous messages. Upon signing up and logging in, users are provided with a link that they can share with others to receive anonymous messages. The application uses AI-generated suggestions from Google Gemini to help users craft meaningful and anonymous messages.
 
----
+## Features
 
-## ✨ Features
+- **User Authentication**: Sign up and login functionality.
+- **Dashboard**: A user dashboard where they can manage received messages.
+- **Anonymous Messaging**: Generate a link that others can use to send anonymous messages.
+- **AI-Powered Suggestions**: Get message suggestions powered by **Google Gemini** to help users craft anonymous messages.
+- **Message Management**: View, accept, or delete messages.
 
-- ✅ User Authentication using **NextAuth**
-- 🏠 Public **Home Page** and secure **Dashboard Page**
-- 📩 Generate a **unique sharable link** for anonymous message collection
-- 🤖 AI-generated message suggestions (friendly, cheeky, random)
-- 🔒 Passwords hashed using **bcryptjs**
-- 🧠 AI integrations with **OpenAI SDK**, **AI SDK**, and **Google Gen AI**
-- 🎨 Styled with **Tailwind CSS** + **Radix UI** + **Lucide Icons**
-- 💌 Built-in email components using **react-email**
-- ⚡ Anonymous messaging system — fully private and user-friendly
-- 🔗 Fully dynamic routing with **Next.js App Router**
+## Tech Stack
 
----
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose
+- **AI**: Google Gemini for generating message suggestions
+- **Authentication**: NextAuth for user authentication
+- **Database**: MongoDB
+- **File Storage**: Cloudinary for media management
+- **Styling**: Tailwind CSS for a responsive and modern design
 
-## 🧰 Tech Stack
+## Setup
 
-### Frontend
-- **Next.js 15 (App Router)**
-- **React 19**
-- **Tailwind CSS 4**
-- **React Hook Form + Zod** (form handling & validation)
-- **Lucide-react**, **Radix UI** (for UI components)
+To get the project running on your local machine, follow these steps:
 
-### Backend
-- **NextAuth v5 (beta)** for authentication
-- **MongoDB + Mongoose** for data storage
-- **BcryptJS** for password hashing
-- **AI SDKs**: `openai`, `@ai-sdk/react`, `@google/generative-ai` for smart message suggestions
-
-### Others
-- **Axios** for API calls
-- **Sonner** for beautiful toast notifications
-- **Resend** and **React Email** for future-proof email workflows
-- **Embla Carousel** for sliding content (if applicable)
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mystery.git
+git clone https://github.com/your-username/mystery.git
 cd mystery
