@@ -123,14 +123,4 @@ Contributions to **LinkLeap** are welcome. Please follow these guidelines:
 4.  Push your changes to your fork.
 5.  Submit a pull request.
 
-## License
 
-[Specify the license under which your project is distributed]
-
-## Acknowledgements
-
-[Optional: Mention any libraries, frameworks, or resources that significantly helped in the development of this project.]
-
----
-
-**Note:** Remember to replace `<repository-url>` with the actual URL of your project's repository and fill in the license information and any acknowledgements. You should also create a `public/screenshot-dashboard.png` file with a screenshot of your dashboard to make the README more visually appealing. If you have an `.env.example` file, make sure to mention it in the setup instructions. The "Frontend" section now explicitly mentions `shadcn/ui` and clarifies its relationship with Radix UI and Tailwind CSS.
