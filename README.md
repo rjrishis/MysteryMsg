@@ -1,6 +1,6 @@
 # LinkLeap - Receive Anonymous Messages
 
-![LinkLeap Dashboard Screenshot](./public/screenshot-dashboard.png)
+![Home Page](Images/Img1.png)
 _A glimpse of the user dashboard._
 
 ## Overview
