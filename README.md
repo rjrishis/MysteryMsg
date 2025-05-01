@@ -1,7 +1,9 @@
 # LinkLeap - Receive Anonymous Messages
 
 ![Home Page](Images/Img1.png)
-_A glimpse of the user dashboard._
+![Dashboard Page](Images/Img2.png)
+![Public Page](Images/Img3.png)
+
 
 ## Overview
 
@@ -66,12 +68,17 @@ To run **LinkLeap** locally, follow these steps:
 
 3.  **Set up environment variables:**
     Create a `.env.local` file in the root directory and configure the necessary environment variables. This will likely include:
-    * Database connection URI (e.g., for MongoDB)
-    * Authentication secrets (for NextAuth)
-    * API keys for Google Generative AI and Resend (if used)
-    * Other sensitive configurations.
+        AUTH_SECRET=your_auth_secret_here
+        AUTH_GITHUB_ID=your_github_client_id
+AUTH_GITHUB_SECRET=your_github_client_secret
+MONGODB_URI=your_mongodb_connection_string
+RESEND_API_KEY=your_resend_api_key
+OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY=your_google_gemini_api_key
+NEXTAUTH_URL=http://localhost:3000
 
-    Refer to the project's documentation or `.env.example` (if provided) for the specific variables required.
+
+   
 
 4.  **Run the development server:**
     ```bash
